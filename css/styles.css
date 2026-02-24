@@ -1,0 +1,108 @@
+/* styles.css - Advanced Stylish Theme with Animations */
+
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: backgroundShift 20s infinite alternate;
+}
+
+/* Background animation */
+@keyframes backgroundShift {
+    0% {
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    }
+    100% {
+        background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+    }
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    width: 90%;
+    margin: 50px auto;
+    background: #ffffffcc;
+    padding: 40px 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s ease;
+}
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+    position: relative;
+}
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #007BFF;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+/* Form Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    font-size: 16px;
+    background: #f9f9f9;
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #007BFF;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+}
+
+/* Buttons */
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.2s;
+}
+button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+button:active {
+    transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px 20px;
+    }
+}

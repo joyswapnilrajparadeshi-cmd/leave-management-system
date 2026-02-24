@@ -1,0 +1,86 @@
+/* Apply beautiful diagonal background with fast transitions */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6a00, #ee0979, #2193b0, #6dd5ed, #cc2b5e, #753a88);
+    background-size: 800% 800%;
+    animation: waveGradient 8s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+@keyframes waveGradient {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 50% 100%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 50% 0%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Form container with glassmorphism style */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+    font-size: 16px;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+input::placeholder {
+    color: #444;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #00c6ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0072ff;
+    transform: scale(1.03);
+}
+
+/* Links (forgot password / login etc.) */
+.links {
+    margin-top: 15px;
+    display: flex;
+    jus
