@@ -6,6 +6,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 [![XAMPP](https://img.shields.io/badge/XAMPP-ff8c00?style=for-the-badge)](https://www.apachefriends.org/) 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=google-chrome&logoColor=white)](https://leave-management.kesug.com)
 [![License](https://img.shields.io/badge/License-Open%20Source-green?style=for-the-badge)](#)
 
 ---
@@ -20,6 +21,35 @@ It empowers:
 - **Administrators** to approve, reject, and maintain leave records efficiently.  
 
 > This system reduces manual work, increases transparency, and brings HR operations into the **digital age**.
+
+---
+
+## 🌐 Live Demo  
+
+[Check the Live App here →](https://leave-management.kesug.com)
+
+---
+
+## 🖼 Screenshots
+
+### 1️⃣ Home Page
+<img width="1897" height="881" alt="Leave Management Home Page" src="https://github.com/user-attachments/assets/5c2afc22-9157-4ccf-b2e7-c752d540f89d" />  
+*The landing dashboard for employees and admins with quick access to leave summaries, notifications, and analytics.*
+
+---
+
+### 2️⃣ Leave Types
+<img width="1899" height="847" alt="Leave Types Page" src="https://github.com/user-attachments/assets/b8c8826c-2b75-47d6-86f9-2d5bc079657f" />  
+*Admin panel displaying all leave types, their details, and configurable settings for organization policies.*
+
+---
+
+### 3️⃣ Leave Request Form
+<img width="1819" height="847" alt="Leave Request Form" src="https://github.com/user-attachments/assets/18ad59f5-297e-43e5-96e5-f1f85e714d90" />  
+*Employee interface to submit a leave request with start/end dates, type of leave, and optional supporting documents.*
+
+
+
 
 ---
 
@@ -65,26 +95,6 @@ It empowers:
 
 ---
 
-## ⚙ Installation
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/joyswapnilrajparadeshi-cmd/leave-management-system.git
-
-Import Database:
-Import leave_app.sql into MySQL.
-
-Update DB Configuration:
-Edit database credentials in db_connection.php (or your config file).
-
-Start Server:
-Run XAMPP/WAMP/LAMP and start Apache & MySQL.
-
-Access the App:
-Open in browser:
-http://localhost/leave-management-system/
-
 📁 Project Structure
 leave-management-system/
 ├── PHPMailer-master/       # Email library
@@ -123,11 +133,9 @@ Cloud deployment with secure authentication
 
 Multi-organization support
 
-👨‍💻 Author
+## 👨‍💻 Author
+**Paradeshi Joy Swapnil Raj**  
+B.Tech CSE | Full Stack Developer | AI & ML Enthusiast  
 
-Paradeshi Joy Swapnil Raj
-B.Tech CSE | Full Stack Developer | AI & ML Enthusiast
-
-📧 joyswapnilrajparadeshi@gmail.com
-
-🌐 Portfolio
+📧 [Email Me](mailto:joyswapnilrajparadeshi@gmail.com)  
+🌐 [Portfolio](https://joyswapnilrajparadeshi-cmd.github.io/portfolio/)
